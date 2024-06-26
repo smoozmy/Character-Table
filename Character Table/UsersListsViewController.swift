@@ -10,7 +10,7 @@ import UIKit
 final class UsersListsViewController: UIViewController {
     
     var usersArray: [User] = [
-        User(userPhoto: UIImage(named: "boy") ?? UIImage(named: "person.fill")!, userFirstName: "Волт", userLastName: "Бой", userPosition: "Маскот", userAddress: "Штаб-квартира «Волт-Тек»"),
+        User(userPhoto: UIImage(named: "boy") ?? UIImage(systemName: "person.fill")!, userFirstName: "Волт", userLastName: "Бой", userPosition: "Маскот", userAddress: "Штаб-квартира «Волт-Тек»"),
         User(userPhoto: UIImage(named: "tommy") ?? UIImage(systemName: "person.fill")!, userFirstName: "Томми", userLastName: "Версетти", userPosition: "Бизнесмен", userAddress: "Вайс-Сити"),
         User(userPhoto: UIImage(named: "natan") ?? UIImage(systemName: "person.fill")!, userFirstName: "Нейтан", userLastName: "Дрейк", userPosition: "Водолаз", userAddress: "Новый Орлеан"),
         User(userPhoto: UIImage(named: "freeman") ?? UIImage(systemName: "person.fill")!, userFirstName: "Гордон", userLastName: "Фримен", userPosition: "Ученый", userAddress: "Сити 17"),
