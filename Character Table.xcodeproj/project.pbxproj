@@ -13,6 +13,8 @@
 		6F8EEB182C2BFACC0073BC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EEB172C2BFACC0073BC3F /* Assets.xcassets */; };
 		6F8EEB1B2C2BFACC0073BC3F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EEB1A2C2BFACC0073BC3F /* Base */; };
 		6F8EEB332C2C04D40073BC3F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EEB322C2C04D40073BC3F /* User.swift */; };
+		6F8EEB352C2C051B0073BC3F /* UsersListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EEB342C2C051B0073BC3F /* UsersListsViewController.swift */; };
+		6F8EEB372C2C052F0073BC3F /* UsersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EEB362C2C052F0073BC3F /* UsersListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F8EEB1A2C2BFACC0073BC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8EEB1C2C2BFACC0073BC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8EEB322C2C04D40073BC3F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6F8EEB342C2C051B0073BC3F /* UsersListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListsViewController.swift; sourceTree = "<group>"; };
+		6F8EEB362C2C052F0073BC3F /* UsersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6F8EEB0E2C2BFACB0073BC3F /* AppDelegate.swift */,
 				6F8EEB102C2BFACB0073BC3F /* SceneDelegate.swift */,
 				6F8EEB122C2BFACB0073BC3F /* UserInfoViewController.swift */,
+				6F8EEB342C2C051B0073BC3F /* UsersListsViewController.swift */,
+				6F8EEB362C2C052F0073BC3F /* UsersListCell.swift */,
 				6F8EEB322C2C04D40073BC3F /* User.swift */,
 				6F8EEB172C2BFACC0073BC3F /* Assets.xcassets */,
 				6F8EEB192C2BFACC0073BC3F /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8EEB352C2C051B0073BC3F /* UsersListsViewController.swift in Sources */,
+				6F8EEB372C2C052F0073BC3F /* UsersListCell.swift in Sources */,
 				6F8EEB132C2BFACB0073BC3F /* UserInfoViewController.swift in Sources */,
 				6F8EEB332C2C04D40073BC3F /* User.swift in Sources */,
 				6F8EEB0F2C2BFACB0073BC3F /* AppDelegate.swift in Sources */,
